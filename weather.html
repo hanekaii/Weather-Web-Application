@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <title>CSE383 Final Weather</title>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="weather.html" style="font-weight: bold;">Weather</a> | 
+        <a href="history.html">History</a>  
+    </nav>
+    <div class="container-fluid">
+        <div class="row" id="pageheader">
+            <div class="col-sm">
+            <h1 class="page">Weather</h1>
+            <h5>5-Day Forecast</h5>
+        </div>
+
+        </div>
+        <div class="row" id="searchInput">
+            <!-- <label for="location">Search: </label> -->
+            <input type="text" id="location" placeholder = "Oxford Ohio">
+            <button class="search" onclick="buttonSearch()">Search</button>
+
+        </div>
+
+        <div class="row" id="day1">
+            <div class="col-sm" id="icon">
+                <img id="icon1" src ="http://openweathermap.org/img/wn/10d@2x.png" ></a> 
+                </div>
+                <div class ="col-sm" id="high"> 
+                <P id="high1">60</P>
+                <p id="low1">50</p>
+            </div>
+
+     
+            <div class="col-sm" id="vis-hum">
+                <p id="vis1">Cloudy</p>
+                <p style="margin:0;display:inline;float:left">Humidity:&nbsp;</p>
+                <p style="margin:0;display:inline;float:left" id="hum1">10</p>
+            </div>
+            <div class="col-sm" id="weekday">
+                <p id="weekday1">Tuesday</p>
+                <p id="date1">5/6/22</p>
+            </div>
+        </div>
+
+        <div class="row" id="day2">
+            <div class="col-sm" id="icon">
+                <img src ="http://openweathermap.org/img/wn/10d@2x.png" id ="icon2"></a>  
+            </div>
+            <div class ="col-sm" id="high"> 
+                <P id="high2">60</P>
+                <p id="low2">50</p>
+            </div>
+     
+            <div class="col-sm" id="vis-hum">
+                <p id="vis2">Cloudy</p>
+                <p style="margin:0;display:inline;float:left">Humidity:&nbsp;</p>
+                <p style="margin:0;display:inline;float:left" id="hum2">10</p>
+            </div>
+            <div class="col-sm" id="weekday">
+                <p id="weekday2">Tuesday</p>
+                <p id="date2">5/6/22</p>
+            </div>
+        </div>
+
+        <div class="row" id="day3">
+            <div class="col-sm" id="icon">
+                <img src ="http://openweathermap.org/img/wn/10d@2x.png" id ="icon3"></a> 
+            </div>
+            <div class ="col-sm" id="high"> 
+                <P id="high3">60</P>
+                <p id="low3">50</p>
+            </div>
+     
+            <div class="col-sm" id="vis-hum">
+                <p id="vis3">Cloudy</p>
+                <p style="margin:0;display:inline;float:left">Humidity:&nbsp;</p>
+                <p style="margin:0;display:inline;float:left" id="hum3">10</p>
+            </div>
+            <div class="col-sm" id="weekday">
+                <p id="weekday3">Tuesday</p>
+                <p id="date3">5/6/22</p>
+            </div>
+        </div>
+
+        <div class="row" id="day4">
+            <div class="col-sm" id="icon">
+                <img src ="http://openweathermap.org/img/wn/10d@2x.png" id ="icon4"></a> 
+            </div>
+            <div class ="col-sm" id="high"> 
+                <P id="high4">60</P>
+                <p id="low4">50</p>
+            </div>
+     
+            <div class="col-sm" id="vis-hum">
+                <p id="vis4">Cloudy</p>
+                <p style="margin:0;display:inline;float:left">Humidity:&nbsp;</p>
+                <p style="margin:0;display:inline;float:left" id="hum4">10</p>
+            </div>
+            <div class="col-sm" id="weekday">
+                <p id="weekday4">Tuesday</p>
+                <p id="date4">5/6/22</p>
+            </div>
+        </div>
+
+        <div class="row" id="day5">
+            <div class="col-sm" id="icon">
+                <img src ="http://openweathermap.org/img/wn/10d@2x.png" id ="icon5"></a> 
+            </div>
+            <div class ="col-sm" id="high"> 
+                <P id="high5">60</P>
+                <p id="low5">50</p>
+            </div>
+     
+            <div class="col-sm" id="vis-hum">
+                <p id="vis5">Cloudy</p>
+                <p style="margin:0;display:inline;float:left">Humidity:&nbsp;</p>
+                <p style="margin:0;display:inline;float:left" id="hum5">10</p>
+            </div>
+            <div class="col-sm" id="weekday">
+                <p id="weekday5">Tuesday</p>
+                <p id="date5">5/6/22</p>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</html>

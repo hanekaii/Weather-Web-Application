@@ -1,0 +1,118 @@
+:root {
+  --color1: #D2DAFF;
+  --color2:#F2BA9B;
+  --color3:#AAC4FF;
+  --color4:#97DECE;
+  --color5:#9B89C4;
+  
+
+}
+body{
+  background-color: #EEF1FF;
+}
+
+nav{
+  font-size: 25px;
+  text-align:center;
+  
+
+}
+
+.container-fluid{
+  width: 800px;
+
+
+}
+
+#pageheader{
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+
+#weekday{
+  margin:auto;
+  font-size:20px;
+ 
+}
+.page{
+  font-size:30px;
+  height: 70px;
+  margin: auto;
+  font-weight: bold;
+
+}
+
+#vis-hum{
+  text-transform: capitalize;
+  margin:auto;
+  font-size:20px;
+}
+
+#searchInput{
+  text-align: center;
+  margin: 10px;
+
+}
+#numInput{
+  width:50px;
+}
+
+#high p{
+  display: flex;
+
+
+}
+
+  .row{
+    border-radius: 10px;
+    border: 5px solid var(--color3);
+    background-color: var(--color1);
+    margin: 10px;
+    
+
+
+    
+  }
+  #historyRow {
+
+    height:300px;
+
+
+
+  }
+  #indexImg{
+   
+    margin-left: 150px;
+    margin-top: -260px;
+
+
+  }
+  img{
+    width: 150px; 
+    height: auto;
+    margin: auto;
+
+  }
+  #icon{
+    width: 30px;
+  }
+  #high{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+
+  }
+
+  #box{
+    width:400px;
+    height: 60px;
+    font-size: 40px;
+    text-align: right;
+    background-color: var(--color3);
+    color: white;
+    font-weight: bold;
+    border: 0px solid var(--color2);
+  }

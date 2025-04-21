@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+    <title>CSE383 Final History</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <nav>
+        <a href="index.html" >Home</a> |
+        <a href="weather.html">Weather</a> |
+        <a href="history.html" style="font-weight: bold;">History</a>  
+
+    </nav>
+    <div class="container-fluid">
+        <div class="row" id="pageheader">
+            <div class="col-sm">
+            <h1 class="page">History</h1>
+            <h5>Look up history of previous queries</h5>
+        </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm" id="dateBox">
+                <label for="dateInput">Enter Date: </label>
+                <input type="date" id="dateInput"> 
+
+            </div>
+            <div class="col-sm" id="numberInputBox">
+                <label for="numInput">Max number of results: </label>
+                <input type="text" id="numInput" required>
+                <button type="submit" form="form1" value="Submit" onclick="historySearch()">Submit</button>
+            </div>
+        </div>
+        <div class ="row">
+            <table class='table loadTable'>
+
+                <thead><tr><th>Query</th><th>Date</th></tr></thead>
+                <tbody>
+                    <tr><td id='queryHistory'>&nbsp;</td><td id='dateHistory'>&nbsp;</td></tr>
+                </tbody>
+              </table>
+        </div>
+
+
+
+
+
+</html>
