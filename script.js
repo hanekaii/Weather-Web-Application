@@ -4,10 +4,10 @@ var search_input;
 
 var URL1 = "https://api.tomtom.com/search/2/search/";
 var URL1_part_2 = ".json?minFuzzyLevel=1&maxFuzzyLevel=2&view=Unified&relatedPois=all&key=";
-var api_key1 = "bcjgLEXAiRPG6qcUFi6LPCEXHG7oMrNM";
+var api_key1 = "xxxxxxxxxxxxxxx";
 
 var URL2 = "https://api.openweathermap.org/data/2.5/forecast?lat=";
-var api_key2 = "351a8bbd5e0b2321cf070e76c951e235";
+var api_key2 = "xxxxxxxxxxxxxxxxxxxxxx";
 
 let input;
 let input1;
@@ -171,5 +171,6 @@ function weekDayConverter(isoStr1){
     return date1 = new Date(isoStr1);
 
 }
+
 
 
